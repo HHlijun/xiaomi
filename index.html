@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="static/css/index.css" />
+		<script src="static/jquery-3.6.1.js"></script>
+		<link rel="stylesheet" href="static/swiper-8.3.0/swiper/swiper-bundle.css" />
+		<script src="static/swiper-8.3.0/swiper/swiper-bundle.min.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<div class="header">
+				<div class="bar">
+					<div class="site-topbar">
+						<div class="site-left">
+							<ul>
+								<li><a href="#">小米官网</a><span>|</span></li>
+								<li><a href="#">小米商城</a><span>|</span></li>
+								<li><a href="#">MIUI</a><span>|</span></li>
+								<li><a href="#">IoT</a><span>|</span></li>
+								<li><a href="#">云服务</a><span>|</span></li>
+								<li><a href="#">天星数科</a><span>|</span></li>
+								<li><a href="#">有品</a><span>|</span></li>
+								<li><a href="#">小米开放平台</a><span>|</span></li>
+								<li><a href="#">企业团购</a><span>|</span></li>
+								<li><a href="#">资质证照</a><span>|</span></li>
+								<li><a href="#">协议规则</a><span>|</span></li>
+								<li><a href="#">下载app</a><span>|</span></li>
+								<li><a href="#">Select Location</a></li>
+							</ul>
+						</div>
+						<div class="site-right">
+							<ul>
+								<li><a href="#">登录</a><span>|</span></li>
+								<li><a href="#">注册</a><span>|</span></li>
+								<li><a href="#">消息通知</a></li>
+								<li><a href="#">购物车</a>
+									<span class="shopcar">购物车中还没有商品，赶紧选购吧！</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="site-header">
+					<div class="img1"></div>
+					<div class="list1">
+						<ul class="template1">
+							<li><a href="#"><span>Xiaomi手机</span></a></li>
+							<li><a href="#"><span>Redmi手机</span></a></li>
+							<li><a href="#"><span>笔记本</span></a></li>
+							<li><a href="#"><span>路由器</span></a></li>
+							<li><a href="#"><span>平板</span></a></li>
+							<li><a href="#"><span>家电</span></a></li>
+							<li><a href="#"><span>电视</span></a></li>
+							<span>
+							<li><a href="#"><span>服务中心</span></a></li>
+							<li><a href="#"><span>社区</span></a></li>
+							</span>
+							
+						</ul>
+					</div>
+					<div class="right">
+						<div class="input"><input type="text" /></div>
+						<div class="img2"></div>
+					</div>
+
+					<div id="lst2">
+						<div class="list2">
+							<ul class="hide">
+									<li><img src="static/image/xiaomi.webp"/><div class="title">Xiaomi MIX Fold 2</div><p class="price">8999元起</p></li>
+									<li><img src="static/image/xiaomi.webp"/><div class="title">Xiaomi MIX Fold 2</div><p class="price">8999元起</p></li>
+									<li><img src="static/image/xiaomi.webp"/><div class="title">Xiaomi MIX Fold 2</div><p class="price">8999元起</p></li>
+									<li><img src="static/image/xiaomi.webp"/><div class="title">Xiaomi MIX Fold 2</div><p class="price">8999元起</p></li>
+									<li><img src="static/image/xiaomi.webp"/><div class="title">Xiaomi MIX Fold 2</div><p class="price">8999元起</p></li>
+									<li><img src="static/image/xiaomi.webp"/><div class="title">Xiaomi MIX Fold 2</div><p class="price">8999元起</p></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper rightlist1">
+							<div class="swiper-slide imglist"><img src="static/image/swiper/one.webp"></div>
+							<div class="swiper-slide imglist"><img src="static/image/swiper/two.webp"></div>
+							<div class="swiper-slide imglist"><img src="static/image/swiper/three.webp"></div>
+							<div class="swiper-slide imglist"><img src="static/image/swiper/four.webp"></div>
+							<div class="swiper-slide imglist"><img src="static/image/swiper/five.webp"></div>
+						</div>
+						 <!-- 如果需要分页器 -->
+						    <div class="swiper-pagination"></div>
+						    
+						    <!-- 如果需要导航按钮 -->
+						    <div class="swiper-button-prev"></div>
+						    <div class="swiper-button-next"></div>
+						    
+						    <!-- 如果需要滚动条 -->
+						    <div class="swiper-scrollbar"></div>
+					</div>
+					<div class="leftlist">
+						<ul class="template2">
+								<li onmouseover="one_a()" class="one_a"><a href="javascript:;">手机</a></li>
+								<li onmouseover="one_a()" class="one_a"><a href="javascript:;">笔记本 平板</a></li>
+								<li onmouseover="one_a()" class="one_a"><a href="javascript:;">出行 穿戴</a></li>
+								<li onmouseover="one_a()" class="one_a"><a href="javascript:;">耳机 音响</a></li>
+								<li onmouseover="one_a()" class="one_a"><a href="javascript:;">家电</a></li>
+								<li onmouseover="one_a()" class="one_a"><a href="javascript:;">电视</a></li>
+								<li onmouseover="one_a()" class="one_a"><a href="javascript:;">智能 路由器</a></li>
+								<li onmouseover="one_a()" class="one_a"><a href="javascript:;">电源 配件</a></li>
+								<li onmouseover="one_a()" class="one_a"><a href="javascript:;">健康 儿童</a></li>
+								<li onmouseover="one_a()" class="one_a"><a href="javascript:;">生活 箱包</a></li>
+						</ul>
+					</div>
+					<div id="leftlist1" class="hide">
+						<ul>
+								<li><a href="javascript:;"><img src="./static/image/shop.jpg"><span class="text">运动鞋</span></a></li>
+								<li><a href="javascript:;"><img src="./static/image/shop.jpg"><span class="text">运动鞋</span></a></li>
+								<li><a href="javascript:;"><img src="./static/image/shop.jpg"><span class="text">运动鞋</span></a></li>
+								<li><a href="javascript:;"><img src="./static/image/shop.jpg"><span class="text">运动鞋</span></a></li>
+								<li><a href="javascript:;"><img src="./static/image/shop.jpg"><span class="text">运动鞋</span></a></li>
+								<li><a href="javascript:;"><img src="./static/image/shop.jpg"><span class="text">运动鞋</span></a></li>
+								<li><a href="javascript:;"><img src="./static/image/shop.jpg"><span class="text">运动鞋</span></a></li>
+								<li><a href="javascript:;"><img src="./static/image/shop.jpg"><span class="text">运动鞋</span></a></li>
+						</ul>
+					</div>
+					<div class="server">
+						<div class="serveritem">
+							<ul>
+								<li><a href="javascript:;"><img  src="static/image/01.png"/><span>保障服务</span></a></li>
+								<li><a href="javascript:;"><img  src="static/image/02.png"/><span>企业团购</span></a></li>
+								<li><a href="javascript:;"><img  src="static/image/03.png"/><span>F码通道</span></a></li>
+								<li><a href="javascript:;"><img  src="static/image/04.png"/><span>米粉卡</span></a></li>
+								<li><a href="javascript:;"><img  src="static/image/05.png"/><span>以旧换新</span></a></li>
+								<li><a href="javascript:;"><img  src="static/image/06.png"/><span>话费充值</span></a></li>
+							</ul>
+							
+						</div>
+						<div class="clear"></div>
+						<div class="serveriphone">
+							<ul>
+								<li><a href="javascript:;"><img src="./static/image/iphone01.jpg"/></a></li>
+								<li><a href="javascript:;"><img src="./static/image/iphone02.jpg"/></a></li>
+								<li><a href="javascript:;"><img src="./static/image/iphone03.jpg"/></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			
+			<div class="bottomcontainer">
+				<div class="containerimage "><img src="./static/image/bottomxiaomi.webp"/></div>
+				<div class="hd">
+					<div class="box-hd">
+						<h2 class="text">手机</h2>
+						<div class="more"><li><a href="javascript:;">查看更多</a></li></div>
+					</div>
+				</div>
+				<div class="item-left">
+					<div class="left-img"><a href="#"><img src="./static/image/hdxioami.webp"/></a></div>
+					<div class="row">
+						<ul>
+							<li><a href="javascript:;">
+								<div class="image"><img src="./static/image/hditemxiaomi.webp"/></div>
+								<h3 class="title">Redmi Note 11 5G</h3>
+								<p class="desc">5000mAh大电量</p>
+								<p class="price"><span class="num">1199</span>元<span>起</span></p>
+								</a>
+							</li>
+							<li><a href="javascript:;">
+								<div class="image"><img src="./static/image/hditemxiaomi.webp"/></div>
+								<h3 class="title">Redmi Note 11 5G</h3>
+								<p class="desc">5000mAh大电量</p>
+								<p class="price"><span class="num">1199</span>元<span>起</span></p>
+								</a>
+							</li>
+							<li><a href="javascript:;">
+								<div class="image"><img src="./static/image/hditemxiaomi.webp"/></div>
+								<h3 class="title">Redmi Note 11 5G</h3>
+								<p class="desc">5000mAh大电量</p>
+								<p class="price"><span class="num">1199</span>元<span>起</span></p>
+								</a>
+							</li>
+							<li><a href="javascript:;">
+								<div class="image"><img src="./static/image/hditemxiaomi.webp"/></div>
+								<h3 class="title">Redmi Note 11 5G</h3>
+								<p class="desc">5000mAh大电量</p>
+								<p class="price"><span class="num">1199</span>元<span>起</span></p>
+								</a>
+							</li>
+							<li><a href="javascript:;">
+								<div class="image"><img src="./static/image/hditemxiaomi.webp"/></div>
+								<h3 class="title">Redmi Note 11 5G</h3>
+								<p class="desc">5000mAh大电量</p>
+								<p class="price"><span class="num">1199</span>元<span>起</span></p>
+								</a>
+							</li>
+							<li><a href="javascript:;">
+								<div class="image"><img src="./static/image/hditemxiaomi.webp"/></div>
+								<h3 class="title">Redmi Note 11 5G</h3>
+								<p class="desc">5000mAh大电量</p>
+								<p class="price"><span class="num">1199</span>元<span>起</span></p>
+								</a>
+							</li>
+							<li><a href="javascript:;">
+								<div class="image"><img src="./static/image/hditemxiaomi.webp"/></div>
+								<h3 class="title">Redmi Note 11 5G</h3>
+								<p class="desc">5000mAh大电量</p>
+								<p class="price"><span class="num">1199</span>元<span>起</span></p>
+								</a>
+							</li>
+							<li><a href="javascript:;">
+								<div class="image"><img src="./static/image/hditemxiaomi.webp"/></div>
+								<h3 class="title">Redmi Note 11 5G</h3>
+								<p class="desc">5000mAh大电量</p>
+								<p class="price">1199元起</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="hd">
+					<div class="box-hd">
+						<h2 class="text">智能穿戴</h2>
+						<div class="more"><li><a href="javascript:;">查看更多</a></li></div>
+					</div>
+				</div>
+				<div class="item-left">
+					<div class="left-img"><a href="#"><img src="static/image/xiaomiwatch.webp"/></a></div>
+					<div class="row">
+						<ul>
+							<li><a href="javascript:;">
+								<div class="image"><img src="static/image/watch.webp"/></div>
+								<h3 class="title">Redmi Note 11 5G</h3>
+								<p class="desc">48dB智能动态降噪｜骨声纹通话降噪 | 独立空间音频</p>
+								<p class="price"><span class="num">1199</span>元<span>起</span></p>
+								</a>
+							</li>
+							<li><a href="javascript:;">
+								<div class="image"><img src="static/image/watch.webp"/></div>
+								<h3 class="title">Redmi Note 11 5G</h3>
+								<p class="desc">48dB智能动态降噪｜骨声纹通话降噪 | 独立空间音频</p>
+								<p class="price"><span class="num">1199</span>元<span>起</span></p>
+								</a>
+							</li>
+							<li><a href="javascript:;">
+								<div class="image"><img src="static/image/watch.webp"/></div>
+								<h3 class="title">Redmi Note 11 5G</h3>
+								<p class="desc">48dB智能动态降噪｜骨声纹通话降噪 | 独立空间音频</p>
+								<p class="price"><span class="num">1199</span>元<span>起</span></p>
+								</a>
+							</li>
+							<li><a href="javascript:;">
+								<div class="image"><img src="static/image/watch.webp"/></div>
+								<h3 class="title">Redmi Note 11 5G</h3>
+								<p class="desc">48dB智能动态降噪｜骨声纹通话降噪 | 独立空间音频</p>
+								<p class="price"><span class="num">1199</span>元<span>起</span></p>
+								</a>
+							</li>
+							<li><a href="javascript:;">
+								<div class="image"><img src="static/image/watch.webp"/></div>
+								<h3 class="title">Redmi Note 11 5G</h3>
+								<p class="desc">48dB智能动态降噪｜骨声纹通话降噪 | 独立空间音频</p>
+								<p class="price"><span class="num">1199</span>元<span>起</span></p>
+								</a>
+							</li>
+							<li><a href="javascript:;">
+								<div class="image"><img src="static/image/watch.webp"/></div>
+								<h3 class="title">Redmi Note 11 5G</h3>
+								<p class="desc">48dB智能动态降噪｜骨声纹通话降噪 | 独立空间音频</p>
+								<p class="price"><span class="num">1199</span>元<span>起</span></p>
+								</a>
+							</li>
+							<li><a href="javascript:;">
+								<div class="image"><img src="static/image/watch.webp"/></div>
+								<h3 class="title">Redmi Note 11 5G</h3>
+								<p class="desc">48dB智能动态降噪｜骨声纹通话降噪 | 独立空间音频</p>
+								<p class="price"><span class="num">1199</span>元<span>起</span></p>
+								</a>
+							</li>
+							<li class="watchmore"><a href="javascript:;">
+									<h4>浏览更多</h4>
+									<p>穿戴</p>
+									<img src="./static/image/more2.png"/>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+	
+			<div class="footer">
+				<div class="footer-service">
+					<div class="server-list">
+						<ul>
+							<li><a>预约维修服务</a></li>
+							<li><a>7天无理由退货</a></li>
+							<li><a>15天免费换货</a></li>
+							<li><a>满69元包邮</a></li>
+							<li><a>1100余家售后网点</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="footer-links">
+					<dl>
+						<dt></dt>
+					</dl>
+					<dl>
+						<dt>选购指南</dt>
+						<dd><a>手机</a></dd>
+						<dd><a>电视</a></dd>
+						<dd><a>笔记本</a></dd>
+						<dd><a>平板</a></dd>
+						<dd><a>穿戴</a></dd>
+						<dd><a>耳机</a></dd>
+						<dd><a>家电</a></dd>
+						<dd><a>路由器</a></dd>
+						<dd><a>音响</a></dd>
+						<dd><a>配件</a></dd>
+					</dl>
+					<dl>
+						<dt>服务中心</dt>
+						<dd><a>申请售后</a></dd>
+						<dd><a>维修政策</a></dd>
+						<dd><a>维修服务价格</a></dd>
+						<dd><a>订单查询</a></dd>
+						<dd><a>以旧换新</a></dd>
+						<dd><a>保障服务</a></dd>
+						<dd><a>防伪查询</a></dd>
+						<dd><a>F码通道</a></dd>
+					</dl>
+					<dl>
+						<dt>线下门店</dt>
+						<dd><a>小米之家</a></dd>
+						<dd><a>服务网点</a></dd>
+						<dd><a>授权体验店/专区</a></dd>
+					</dl>
+					<dl>
+						<dt>关于小米</dt>
+						<dd><a>了解小米</a></dd>
+						<dd><a>加入小米</a></dd>
+						<dd><a>投资着关系</a></dd>
+						<dd><a>环境，社会及管治</a></dd>
+						<dd><a>廉洁举报</a></dd>
+					</dl>
+					<dl>
+						<dt>关于我们</dt>
+						<dd><a>新浪微博</a></dd>
+						<dd><a>官方微博</a></dd>
+						<dd><a>联系我们</a></dd>
+						<dd><a>公益基金会</a></dd>
+					</dl>
+					<div class="server-phone">
+						<p class="phone">400-100-5678</p>
+						<p>8:00-18:00（仅收市话费）</p>
+						<a>人工客服</a>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="statics">
+				<div class="phone">
+					<span id="text"><img  src="./static/image/iconfont/mi-mall.png"/></span>
+					<a href="javascript:;"><span></span></a>
+					
+				</div>
+				<div class="preson">
+					<span id="text">个人中心</span>
+					<a href="javascript:;"><span></span></a>
+				</div>
+				<div class="afterserver">
+					<span id="text">售后服务</span>
+					<a href="javascript:;"><span></span></a>
+					
+				</div>
+				<div class="serve">
+					<span id="text">人工服务</span>
+					<a href="javascript:;"><span></span></a>
+					
+				</div>
+				<div class="shop">
+					<span id="text">购物车</span>
+					<a href="javascript:;"><span></span></a>
+					
+				</div>
+				<div class="top">
+					<span id="text">回顶部</span>
+					<a href="#"><span></span></a>
+					
+				</div>
+				
+			</div>
+		</div>
+		
+	</body>
+	<script src="static/js/index.js">
+	</script>
+
+</html>
