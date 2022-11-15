@@ -278,6 +278,7 @@ input {
 	margin: 0 auto;
 	position: relative;
 	z-index: 0;
+	/* height: 680px; */
 }
 
 .leftlist {
@@ -309,8 +310,8 @@ input {
 	font-size: medium;
 }
 
-#leftlist1 {
-	width: 992px;
+#leftlist1,#leftlist2,#leftlist3 {
+	/* width: 992px; */
 	box-sizing: border-box;
 	float: right;
 	height: 460px;
@@ -326,7 +327,9 @@ input {
 	z-index: 1;
 }
 
-#leftlist1 ul li{
+#leftlist1 ul li,
+#leftlist2 ul li,
+#leftlist3 ul li{
 	vertical-align: top;
 	display: inline;
 	writing-mode: lr-tb;
@@ -335,15 +338,21 @@ input {
 	width: 300px;
 
 }
-#leftlist1 ul li a img{
+#leftlist1 ul li a img,
+#leftlist2 ul li a img,
+#leftlist3 ul li a img{
 	margin-top: 15px;
 }
-#leftlist1 ul li a .text{
+#leftlist1 ul li a .text,
+#leftlist2 ul li a .text,
+#leftlist3 ul li a .text{
 	position: absolute;
 	line-height: 100px;
 	color: #424242;
 }
-#leftlist1 ul li a:hover .text{
+#leftlist1 ul li a:hover .text,
+#leftlist2 ul li a:hover .text,
+#leftlist3 ul li a:hover .text{
 	color: #FF6700;
 }
 
@@ -357,13 +366,12 @@ input {
 	z-index: 0;
 }
 
-
 .swiper {
 	display: block;
 	position: relative;
 	z-index: 0;
 	width: 100%;
-	height: 100%;
+	height: 460px;
 }
 
 .swiper-slide {
@@ -394,8 +402,9 @@ input {
 
 .server{
 	padding-top: 20px;
-	height: 200px;
 	background-color: #FFFFFF;
+	height: 220px;
+	box-sizing: border-box;
 	
 }
 
@@ -466,8 +475,11 @@ input {
 .bottomcontainer .containerimage{
 	width:  1226px;
 	padding-top: 25px;
+	height: 162px;
+	box-sizing: border-box;
 }
 .bottomcontainer .containerimage img{
+	height: 108px;
 	max-width:  1226px;
 }
 .bottomcontainer .box-hd{
